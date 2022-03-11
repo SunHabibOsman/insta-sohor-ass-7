@@ -244,7 +244,24 @@ img {
 #reported{
   display: none;
 }
-
+.javascript{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jsimage{
+  width: 50%;
+}
+.jsdetails{
+  padding: 15px;
+}
+.jsul{
+  list-style: none;
+}
+.js{
+  font-weight: bold;
+  text-shadow: 1px black;
+}
 @media only screen and (max-width: 992px) {
   #posts {
     grid-template-columns: repeat(2, 1fr);
